@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Catálogo de botines premium Nike, Adidas y Puma." />
+  <title>Emerald Boots | Botines Premium</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header" id="inicio">
+    <a href="#inicio" class="brand" aria-label="Ir al inicio">
+      <img src="img/Logo/Logo.jpg" alt="Emerald Boots" class="brand-logo" />
+      <div>
+        <strong>EMERALD</strong>
+        <span>BOOTS</span>
+      </div>
+    </a>
+
+    <button class="menu-button" id="menuButton" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#modelos">Modelos</a>
+      <a href="#galeria">Galería</a>
+      <a href="#talles">Talles</a>
+      <a href="#clientes">Clientes</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+
+      <div class="hero-copy">
+        <p class="eyebrow" id="heroEyebrow">COLECCIÓN DESTACADA</p>
+        <h1 id="heroTitle">Nike Air Zoom <span>Mercurial</span></h1>
+        <p id="heroDescription">
+          Velocidad, ajuste y diseño para dominar cada jugada.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#galeria" class="button button-primary">Ver modelos</a>
+          <a href="#" class="button button-outline whatsapp-link" target="_blank" rel="noopener">
+            Consultar stock
+          </a>
+        </div>
+
+        <div class="hero-features">
+          <span>Envíos</span>
+          <span>Talles disponibles</span>
+          <span>Atención personalizada</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-wrap">
+          <img id="heroImage" src="" alt="Botín destacado" />
+          <div class="hero-counter">
+            <span id="heroCurrent">01</span>
+            <span>/</span>
+            <span id="heroTotal">04</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section models-section" id="modelos">
+      <div class="section-heading">
+        <p class="eyebrow">ELEGÍ TU ESTILO</p>
+        <h2>Todos los modelos</h2>
+        <p>Seleccioná un modelo para actualizar toda la página.</p>
+      </div>
+
+      <div class="model-grid" id="modelGrid"></div>
+    </section>
+
+    <section class="section product-section">
+      <div class="product-image-panel">
+        <img id="productImage" src="" alt="" />
+        <span class="product-badge" id="productBadge">TOP VENTAS</span>
+      </div>
+
+      <div class="product-copy">
+        <p class="eyebrow" id="productBrand">NIKE</p>
+        <h2 id="productTitle">Nike Air Zoom Mercurial</h2>
+        <p id="productDescription">
+          Diseñado para jugadores que buscan máxima aceleración y respuesta.
+        </p>
+
+        <div class="product-points">
+          <div><strong>01</strong><span>Diseño deportivo</span></div>
+          <div><strong>02</strong><span>Ajuste cómodo</span></div>
+          <div><strong>03</strong><span>Excelente terminación</span></div>
+        </div>
+
+        <a href="#" class="button button-primary whatsapp-link" target="_blank" rel="noopener">
+          Consultar este modelo
+        </a>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="galeria">
+      <div class="section-heading gallery-heading">
+        <div>
+          <p class="eyebrow">CATÁLOGO COMPLETO</p>
+          <h2 id="galleryTitle">Nike Air Zoom Mercurial</h2>
+        </div>
+        <p><span id="photoCounter">0</span> fotos disponibles</p>
+      </div>
+
+      <div class="gallery" id="gallery"></div>
+
+      <div class="gallery-actions">
+        <button class="button button-outline" id="loadMoreButton">Ver más fotos</button>
+      </div>
+    </section>
+
+    <section class="section sizes-section" id="talles">
+      <div class="sizes-copy">
+        <p class="eyebrow">ENCONTRÁ TU MEDIDA</p>
+        <h2>Talles disponibles</h2>
+        <p>
+          Consultanos antes de comprar para confirmar disponibilidad del modelo y talle.
+        </p>
+
+        <div class="sizes-grid">
+          <span>35</span><span>36</span><span>37</span><span>38</span>
+          <span>39</span><span>40</span><span>41</span><span>42</span>
+          <span>43</span><span>44</span><span>45</span><span>46</span>
+        </div>
+
+        <a href="#" class="button button-primary whatsapp-link" target="_blank" rel="noopener">
+          Consultar mi talle
+        </a>
+      </div>
+
+      <div class="sizes-card">
+        <p>TIP RÁPIDO</p>
+        <h3>Medí tu plantilla</h3>
+        <p>
+          Medí en centímetros una plantilla que ya uses cómodamente y mandanos la medida.
+        </p>
+      </div>
+    </section>
+
+    <section class="section clients-section" id="clientes">
+      <div class="section-heading">
+        <p class="eyebrow">CLIENTES REALES</p>
+        <h2>Ellos ya eligieron</h2>
+        <p>Entregas reales y clientes que confiaron en nosotros.</p>
+      </div>
+
+      <div class="clients-track" id="clientsTrack"></div>
+    </section>
+
+    <section class="section reviews-section">
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Excelente calidad, son impecables y muy comodas.”</p>
+        <strong>Compra verificada</strong>
+      </article>
+
+      <article class="review-card featured">
+        <div class="stars">★★★★★</div>
+        <p>“La atención fue rápida y me ayudaron a elegir el talle correcto.”</p>
+        <strong>Compra verificada</strong>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Tal cual las fotos. Volvería a comprar sin dudas.”</p>
+        <strong>Compra verificada</strong>
+      </article>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div>
+        <p class="eyebrow">CONSULTÁ AHORA</p>
+        <h2>¿Te gustó algún modelo?</h2>
+        <p>Escribinos para consultar stock, talles, medios de pago y envíos.</p>
+      </div>
+
+      <a href="#" class="button button-whatsapp whatsapp-link" target="_blank" rel="noopener">
+        Hablar por WhatsApp
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="brand footer-brand">
+      <img src="img/Logo/Logo.jpg" alt="Emerald Boots" class="brand-logo" />
+      <div><strong>EMERALD</strong><span>BOOTS</span></div>
+    </div>
+
+    <p>© <span id="currentYear"></span> Emerald Boots. Todos los derechos reservados.</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">↑</button>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Anterior">‹</button>
+    <img id="lightboxImage" src="" alt="" />
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Siguiente">›</button>
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
