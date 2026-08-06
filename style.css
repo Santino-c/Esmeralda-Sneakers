@@ -906,3 +906,11 @@ a {
     display: none;
   }
 }
+
+.model-info h3 {
+    color: white !important;
+}
+
+.model-info p {
+    color: #66ff4d !important;
+}
