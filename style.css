@@ -921,86 +921,84 @@ a {
 
 .promo-bar {
   width: 100%;
-  min-height: 48px;
-  padding: 10px 25px;
+  min-height: 80px;
+  padding: 14px 30px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 28px;
+  gap: 35px;
 
-  background: #70ff6a;
+  background: #66ff5f;
   color: #071007;
 
-  font-size: 14px;
   font-weight: 800;
-  letter-spacing: .04em;
-
   position: relative;
   z-index: 110;
 }
 
 .promo-tag {
-  font-size: 12px;
-  letter-spacing: .12em;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 2px;
 }
 
 .promo-prices {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 18px;
 }
 
 .promo-prices strong {
-  font-size: 14px;
-}
-
-.promo-prices strong span {
   font-size: 18px;
   font-weight: 900;
 }
 
+.promo-prices strong span {
+  font-size: 25px;
+  font-weight: 900;
+}
+
 .promo-separator {
+  font-size: 20px;
   opacity: .45;
 }
 
 .promo-bar a {
   color: #071007;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 900;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
 }
 
 /* CELULAR */
-
 @media (max-width: 650px) {
-
   .promo-bar {
-    padding: 9px 10px;
-    gap: 8px;
-    flex-wrap: wrap;
+    min-height: 100px;
+    padding: 12px 10px;
+    gap: 7px;
+    flex-direction: column;
     text-align: center;
   }
 
   .promo-tag {
-    width: 100%;
-    font-size: 10px;
-  }
-
-  .promo-prices {
-    gap: 8px;
-  }
-
-  .promo-prices strong {
     font-size: 11px;
   }
 
+  .promo-prices {
+    gap: 10px;
+  }
+
+  .promo-prices strong {
+    font-size: 13px;
+  }
+
   .promo-prices strong span {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .promo-bar a {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
