@@ -1002,3 +1002,79 @@ a {
     font-size: 11px;
   }
 }
+
+/* =========================
+   FLYER PROMOCIÓN
+========================= */
+
+.promo-flyer-section {
+  padding: 70px 20px;
+  background: #050807;
+  text-align: center;
+}
+
+.promo-flyer-container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.promo-flyer-label {
+  color: #66ff5f;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+}
+
+.promo-flyer-container h2 {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.promo-flyer-img {
+  width: 100%;
+  max-width: 580px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 18px;
+  box-shadow: 0 0 45px rgba(102, 255, 95, 0.18);
+}
+
+.promo-flyer-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 15px 28px;
+
+  background: #66ff5f;
+  color: #050807;
+
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1px;
+
+  text-decoration: none;
+  border-radius: 50px;
+  transition: 0.25s;
+}
+
+.promo-flyer-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(102, 255, 95, 0.3);
+}
+
+@media (max-width: 650px) {
+  .promo-flyer-section {
+    padding: 45px 15px;
+  }
+
+  .promo-flyer-container h2 {
+    font-size: 27px;
+  }
+
+  .promo-flyer-img {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+}
