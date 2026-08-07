@@ -914,3 +914,93 @@ a {
 .model-info p {
     color: #66ff4d !important;
 }
+
+/* =========================
+   PROMO SUPERIOR
+========================= */
+
+.promo-bar {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+
+  background: #70ff6a;
+  color: #071007;
+
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: .04em;
+
+  position: relative;
+  z-index: 110;
+}
+
+.promo-tag {
+  font-size: 12px;
+  letter-spacing: .12em;
+}
+
+.promo-prices {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.promo-prices strong {
+  font-size: 14px;
+}
+
+.promo-prices strong span {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.promo-separator {
+  opacity: .45;
+}
+
+.promo-bar a {
+  color: #071007;
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* CELULAR */
+
+@media (max-width: 650px) {
+
+  .promo-bar {
+    padding: 9px 10px;
+    gap: 8px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .promo-tag {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .promo-prices {
+    gap: 8px;
+  }
+
+  .promo-prices strong {
+    font-size: 11px;
+  }
+
+  .promo-prices strong span {
+    font-size: 14px;
+  }
+
+  .promo-bar a {
+    font-size: 10px;
+  }
+}
